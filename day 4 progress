@@ -1,0 +1,93 @@
+# from random import randrange
+# rock= '''
+#     ______
+# ___'      |
+# ___       |
+#    |______|
+# '''
+# paper = '''
+#     _____________
+# ___'      ______|
+# ___       ______|
+#    |____________|
+#
+# '''
+# sisor ='''
+#     ___________
+# ___'      _____|
+# ___       _____|
+#    |______|
+#
+# '''
+# asker = int(input("what is your choice?\n 0 for rock 1 for paper 2 for sisor :"))
+# rand_num_bot = int(randrange(0,3,1))
+# print("user Input")
+# print(u'\u2500' * 20)
+# if asker == 0:
+#     print(rock)
+# elif asker == 1:
+#     print(paper)
+# else:
+#     print(sisor)
+# print("Bot Input")
+# print(u'\u2500'*20)
+# if rand_num_bot ==0:
+#     print(rock)
+# elif rand_num_bot == 1:
+#     print(paper)
+# else:
+#     print(sisor)
+#
+# if (asker == 0)and(rand_num_bot==0):
+#         print("Game Draw")
+# elif(asker == 0)and (rand_num_bot==1):
+#         print("Bot won")
+# elif(asker==0) and rand_num_bot==2:
+#     print("user won")
+# elif(asker == 1) and rand_num_bot==0:
+#     print("user won")
+# elif (asker == 1) and rand_num_bot==1:
+#     print("game draw")
+# elif (asker == 1) and rand_num_bot==2:
+#     print("Bot won")
+# elif (asker == 2) and rand_num_bot==0:
+#     print("Bot won")
+# elif (asker == 2) and rand_num_bot==1:
+#     print("user won")
+# elif (asker == 2) and rand_num_bot==2:
+#     print("Game Draw")
+
+
+
+###                               emoji game            ###
+
+# row1 = [" "," ",""]
+# row2 = [" "," ",""]
+# row3 = [" "," ",""]
+# map = [row1,row2,row3]
+# print(f"{row1}\n{row2}\n{row3}")
+# position = input("where do you want to put the treasure")
+#
+# horizontal = int(position[0])
+# vertical = int(position[1])
+# selected_row= map [vertical - 1]
+# selected_row[horizontal-1]="X"
+#
+# print (f'{row1}\n{row2}\n{row3}')
+
+
+########                   who will get fucked tonight game ##########
+# import  random
+# random_person = input("Enter some name to go for sex: ")
+# random_person_split = random_person.split(",")
+# print(random_person_split)
+# random_items = len(random_person_split)
+# random_choice = random.randint(0,random_items-1)
+# print(random_choice)
+# choice_worker = random_person_split[random_choice]
+# print( choice_worker + " will get  fucked")
+
+
+##########     random module   ###
+
+
